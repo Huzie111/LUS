@@ -17,7 +17,7 @@ CLASS_NAMES = ['COVID-19', 'Other Disease', 'Healthy']
 device = 'cpu'
 
 # Google Drive file ID - REPLACE WITH YOUR ACTUAL ID
-FILE_ID = "YOUR_GOOGLE_DRIVE_FILE_ID"  # <--- CHANGE THIS
+FILE_ID = "1df5sydv-k8nmIh83mWK-vE8lxTfYQG9C"  # <--- CHANGE THIS
 MODEL_PATH = "pytorch_model.bin"
 
 @st.cache_resource
