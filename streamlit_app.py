@@ -29,7 +29,7 @@ def load_model():
         with st.spinner("Downloading model (44 MB)... First time setup may take a minute"):
             url = f"https://drive.google.com/uc?id={FILE_ID}"
             gdown.download(url, MODEL_PATH, quiet=False)
-            st.success("✅ Model downloaded!")
+            
     
     # Load model
     model = LungUltrasoundModel(num_classes=3, num_seg_classes=1)
@@ -41,7 +41,7 @@ def load_model():
 # Load model
 try:
     model = load_model()
-    st.success("✅ Model ready!")
+    
 except Exception as e:
     st.error(f"Error loading model: {e}")
     model = None
