@@ -18,8 +18,8 @@ CLASS_NAMES = ['COVID-19', 'Other Disease', 'Healthy']
 device = 'cpu'
 
 # Google Drive file ID - REPLACE WITH YOUR ACTUAL ID
-FILE_ID = ""  # <--- CHANGE THIS
-MODEL_PATH = "pytorch_model.bin"
+FILE_ID = "1eS16Qte2xOaz9u7aFgZydtYhMW9BoCef"  # <--- CHANGE THIS
+MODEL_PATH = "pytorch_model_v2.bin"
 
 @st.cache_resource
 def load_model():
