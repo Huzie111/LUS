@@ -1,4 +1,13 @@
 import streamlit as st
+
+
+# FORCE CLEAR CACHE - This will delete all cached data
+st.cache_data.clear()
+st.cache_resource.clear()
+
+# Optional: Also clear session state
+for key in list(st.session_state.keys()):
+    del st.session_state[key]
 import torch
 import numpy as np
 import cv2
