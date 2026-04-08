@@ -7,8 +7,6 @@ import matplotlib.pyplot as plt
 import gdown
 import os
 
-
-
 # Page config
 st.set_page_config(page_title="Lung Ultrasound AI", page_icon="🫁", layout="wide")
 
