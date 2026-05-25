@@ -20,8 +20,8 @@ AI-powered lung ultrasound analysis for resource-constrained settings.
 
 ## Model Details
 - **Architecture**: EfficientNet-B3 + SegFormer
-- **Training Data**: 1,463 images from Mulago and Kiruddu Hospitals, Uganda
-- **Model Size**: 44 MB
+- **Training Data**: 1,063 images classification and 401 segmentation from Mulago and Kiruddu Hospitals, Uganda
+- **Model Size**: 29 MB
 - **Inference Time**: <200 ms on CPU
 
 ## Usage
